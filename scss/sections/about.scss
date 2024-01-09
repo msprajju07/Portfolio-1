@@ -1,0 +1,17 @@
+@use '../components/mixins' as *;
+@use '../custom' as *;
+
+.card-bg{
+    @include card;
+    border: 2px solid rgba($primary , 0.6);
+}
+
+.technologies{
+     display: flex;
+
+     div{
+        background-color: $gray-800;
+        color: $white;
+        font-size: $font-size-sm;
+     }
+}
