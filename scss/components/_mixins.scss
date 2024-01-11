@@ -19,4 +19,5 @@
 @mixin transitionProperty {
     transition-duration: 1000ms;
     transition-property: all;
+    transition-timing-function: ease-in-out;
 }

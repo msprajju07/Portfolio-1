@@ -11887,6 +11887,19 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.button-group {
+  display: flex;
+}
+
+.btn-live, .btn-rep {
+  padding: 0.25rem 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+  color: #343a40;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -12027,11 +12040,13 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 1000ms;
   transition-property: all;
+  transition-timing-function: ease-in-out;
 }
 .portfolio-box:hover img {
   transform: scale(1.5);
   transition-duration: 1000ms;
   transition-property: all;
+  transition-timing-function: ease-in-out;
 }
 
 .card-bg {
