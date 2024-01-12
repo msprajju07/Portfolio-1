@@ -58,3 +58,18 @@
     margin-bottom: 1rem;
     background-color: $primary;
 }
+
+// GRADIENT BG
+
+.gradient{
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
+
+.display-3{
+
+    &--title{
+        color: $primary;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+}

@@ -11950,6 +11950,15 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
+}
+
+.display-3--title {
+  color: #9926f0;
+  font-family: "Poppins", sans-serif;
+}
+
 .border-yellow {
   border: 2px solid #ffc107 !important;
 }
@@ -12047,6 +12056,58 @@ textarea.form-control-lg {
   transition-duration: 1000ms;
   transition-property: all;
   transition-timing-function: ease-in-out;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: circle;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list span {
+  font-weight: 700;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.paper-plane {
+  margin-left: 0.3rem;
+}
+
+#contact #toaster.toast-container {
+  position: absolute;
+  top: 0;
+  right: 0; /* Position relative to the #contact section */
+  background-color: #9926f0;
+  z-index: 9999;
+  /* Ensure it's positioned within the #contact section */
+  width: max-content; /* Prevent overflow if content is wider */
+}
+
+#contact {
+  position: relative; /* Make #contact a positioning context */
 }
 
 .card-bg {
