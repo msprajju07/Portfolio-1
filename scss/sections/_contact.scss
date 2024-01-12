@@ -49,8 +49,8 @@
 
 #contact #toaster.toast-container {
     position: absolute;
-    top: 0;
-    right: 0; /* Position relative to the #contact section */
+    top: 3rem;
+    right: 0; 
     background-color: $primary; 
     z-index: 9999; 
     /* Ensure it's positioned within the #contact section */
