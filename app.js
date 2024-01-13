@@ -11,17 +11,29 @@ filterButtons.forEach(button => {
     });
 });
 
+// ... (previous code remains the same)
+
 function filterProjects(category) {
+    debugger;
     const projectItems = document.querySelectorAll('.project-item');
+  
     projectItems.forEach(item => {
-        const projectCategory = item.querySelector('.caption p').textContent.trim(); // Get project category from the <p> element
-        if (category === 'all' || projectCategory.includes(category)) {
-            item.style.display = 'flex'; // Show the item
-        } else {
-            item.style.display = 'none'; // Hide the item
-        }
+      const projectCategory = item.querySelector('.caption p').textContent.trim();
+      const projectTitle = item.querySelector('.caption h4').textContent.trim();
+  
+      if (category === 'all') {
+        item.style.display = 'flex';
+      } else if (category === 'des-dev' &&
+         (projectTitle === 'Salt N Peppa' ||
+          projectTitle === 'Urban Crust' ||
+          projectTitle === 'Employee CRUD')) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
     });
-}
+  }
+  
 
 
 var form = document.getElementById("contact-form");
