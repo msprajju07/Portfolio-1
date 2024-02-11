@@ -12,6 +12,10 @@
         color: $white !important;
         text-transform: capitalize;
         font-weight: 700;
-        font-size: 1.275rem;
+        font-size: 0.975rem;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.275rem;
+        }
     }
 }

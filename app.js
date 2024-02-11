@@ -32,6 +32,7 @@ function filterProjects(category) {
         item.style.display = 'none';
       }
     });
+    
   }
   
 
