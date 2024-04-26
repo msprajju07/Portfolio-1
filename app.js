@@ -25,7 +25,7 @@ function filterProjects(category) {
         item.style.display = 'flex';
       } else if (category === 'des-dev' &&
          (projectTitle === 'Salt N Peppa' ||
-          projectTitle === 'Urban Crust' ||
+          projectTitle === 'Life Supplies' ||
           projectTitle === 'Employee CRUD')) {
         item.style.display = 'flex';
       } else {
